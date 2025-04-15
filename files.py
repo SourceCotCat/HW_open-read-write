@@ -30,7 +30,7 @@ def merge_files(file_names: list[str], output_file: str) -> None:
 
 
 file_names = ['1.txt', '2.txt', '3.txt']
-output_file = 'merged2.txt'
+output_file = 'merged.txt'
 merge_files(file_names, output_file)
 
 print(f"Файлы успешно объединены в {output_file}.")
